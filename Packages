@@ -33,7 +33,7 @@ Maintainer: How Bout No <howboutno7581@gmail.com>
 Depends: firmware (>9.0)
 Architecture: iphoneos-arm
 Filename: ./debs/com.howboutno.lppenergy_1.0_iphoneos-arm.deb
-Size: 409794
+Size: 409792
 MD5sum: e3ea9701da9e0e3df87264708dfa857e
 Description: Energy animation for LockPlus Pro
 Name: Energy Charging Animation (LPP)
