@@ -1,3 +1,31 @@
+Package: com.howboutno.lppenergy
+Version: 1.0
+Section: Addons (LockPlus Pro)
+Maintainer: How Bout No <howboutno7581@gmail.com>
+Depends: com.junesiphone.lockpluspro
+Architecture: iphoneos-arm
+Filename: ./debs/com.howboutno.lppenergy_1.0_iphoneos-arm.deb
+Size: 409812
+MD5sum: 253863f3f1f2f3ef92642fb22346ca73
+Description: Energy animation for LockPlus Pro
+Name: Energy Charging Animation (LPP)
+Author: How Bout No <howboutno7581@gmail.com>
+Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.lppenergy
+
+Package: com.howboutno.zepelectra
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: How Bout No <howboutno7581@gmail.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: ./debs/com.howboutno.zepelectra_1.0_iphoneos-arm.deb
+Size: 2778
+MD5sum: 2bb046e4a7ef831b65256c544f7d893d
+Description: Electra icons for Zeppelin
+Name: Zeppelin Electra
+Author: How Bout No <howboutno7581@gmail.com>
+Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.zepelectra
+
 Package: com.supermamon.newpackage
 Version: 2.0.0-1
 Section: Tweaks
@@ -25,31 +53,3 @@ Description: This is a sample old package. Firmware should be lower than 7.0
 Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
-
-Package: com.howboutno.lppenergy
-Version: 1.0
-Section: Addons (LockPlus Pro)
-Maintainer: How Bout No <howboutno7581@gmail.com>
-Depends: com.junesiphone.lockpluspro
-Architecture: iphoneos-arm
-Filename: ./debs/com.howboutno.lppenergy_1.0_iphoneos-arm.deb
-Size: 409812
-MD5sum: dce22ef47f522dfb43a6075114af396f
-Description: Energy animation for LockPlus Pro
-Name: Energy Charging Animation (LPP)
-Author: How Bout No <howboutno7581@gmail.com>
-Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.lppenergy
-
-Package: com.howboutno.zepelectra
-Version: 1.0
-Section: Addons (Zeppelin)
-Maintainer: How Bout No <howboutno7581@gmail.com>
-Depends: com.alexzielenski.zeppelin
-Architecture: iphoneos-arm
-Filename: ./debs/com.howboutno.zepelectra_1.0_iphoneos-arm.deb
-Size: 1882
-MD5sum: a64b42e7f768fa6270da63d7a8250c1b
-Description: Electra Bolt icon for Zeppelin
-Name: Zeppelin Electra Bolt
-Author: How Bout No <howboutno7581@gmail.com>
-Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.zepelectra

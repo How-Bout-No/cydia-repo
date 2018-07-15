@@ -1,6 +1,6 @@
 <package>
 	<id>com.howboutno.zepelectra</id>
-	<name>Zeppelin Electra Bolt</name>
+	<name>Zeppelin Electra Icons</name>
 	<version>1.0</version>
 	<compatibility>
 		<firmware>
@@ -15,7 +15,7 @@
 		<package>Zeppelin</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Electra Bolt icon for Zeppelin</description>
+		<description>Electra icons for Zeppelin</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
