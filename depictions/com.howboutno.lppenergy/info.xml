@@ -1,22 +1,21 @@
 <package>
 	<id>com.howboutno.lppenergy</id>
 	<name>Energy Charging Animation (LPP)</name>
-	<version>1.0.0-1</version>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
-			<!--
-			<otherVersions>unsupported</otherVersions>
-			for otherVersions, you can put either unsupported or unconfirmed
-			-->
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>com.junesiphone.lockpluspro</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Lock Plus Pro battery animation</description>
-		<description>Energy sparks</description>
+		<description><![CDATA[
+		Lock Plus Pro battery animation<br/> 
+		Energy sparks
+		]]>
+		</description>
 		<description>CURRENTLY ONLY WORKS BEST ON DARK BACKGROUNDS</description>
 	</descriptionlist>
 	<screenshots></screenshots>
