@@ -40,3 +40,16 @@ Name: Energy Charging Animation (LPP)
 Author: How Bout No <howboutno7581@gmail.com>
 Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.lppenergy
 
+Package: com.howboutno.zepelectra
+Version: 1.0
+Section: Addons (Zeppelin)
+Maintainer: How Bout No <howboutno7581@gmail.com>
+Depends: firmware (>5.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.howboutno.zepelectra_1.0_iphoneos-arm.deb
+Size: 1882
+MD5sum: a64b42e7f768fa6270da63d7a8250c1b
+Description: Electra Bolt icon for Zeppelin
+Name: Zeppelin Electra Bolt
+Author: How Bout No <howboutno7581@gmail.com>
+Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.zepelectra

@@ -1,0 +1,25 @@
+<package>
+	<id>com.howboutno.zepelectra</id>
+	<name>Zeppelin Electra Bolt</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>5.0</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>Zeppelin</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Electra Bolt icon for Zeppelin</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
