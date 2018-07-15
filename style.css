@@ -1,0 +1,82 @@
+body {
+    font-family: 'FreeMono', monospace;
+    color:#242424;
+}
+
+#grad {
+	position: fixed;
+	z-index: 100;
+	width: 10000px;
+	height: 200px;
+	bottom: 0px;
+	background: linear-gradient(to top, white , transparent);
+}
+
+#grad1 {
+	position: fixed;
+	z-index: 100;
+	width: 10000px;
+	height: 50px;
+	top: 0px;
+	background: linear-gradient(to bottom, white , transparent);
+}
+
+#slide1 {
+	visibility: hidden;
+    position: relative;
+    bottom: -1000px;
+    width: 500px;
+    height: 100px;
+    background: white;
+    -webkit-animation: slide 1.5s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 1.5s forwards;
+    animation-delay: 0s;
+}
+
+#slide2 {
+	visibility: hidden;
+    position: relative;
+    bottom: -1000px;
+    width: 500px;
+    height: 100px;
+    background: white;
+    -webkit-animation: slide 1.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 1.5s forwards;
+    animation-delay: 1s;
+}
+
+#slide3 {
+	visibility: hidden;
+    position: relative;
+    bottom: -1000px;
+    width: 500px;
+    height: 100px;
+    background: white;
+    -webkit-animation: slide 1.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 1.5s forwards;
+    animation-delay: 2s;
+}
+
+#slide4 {
+	visibility: hidden;
+    position: relative;
+    bottom: -1000px;
+    width: 500px;
+    height: 100px;
+    background: white;
+    -webkit-animation: slide 1.5s forwards;
+    -webkit-animation-delay: 2.5s;
+    animation: slide 1.5s forwards;
+    animation-delay: 2.5s;
+}
+
+@-webkit-keyframes slide {
+    100% { visibility: visible; bottom: 0; }
+}
+
+@keyframes slide {
+    100% { visibility: visible; bottom: 0; }
+}
