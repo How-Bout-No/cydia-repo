@@ -8,11 +8,11 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>com.junesiphone.lockpluspro</package>
+		<package>LockPlus Pro</package>
 	</dependencies>
 	<descriptionlist>
 		<description><![CDATA[
-		Lock Plus Pro battery animation<br/> 
+		LockPlus Pro battery animation<br/> 
 		Energy sparks
 		]]>
 		</description>
