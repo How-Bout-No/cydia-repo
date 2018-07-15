@@ -30,7 +30,7 @@ Package: com.howboutno.lppenergy
 Version: 1.0
 Section: Addons (LockPlus Pro)
 Maintainer: How Bout No <howboutno7581@gmail.com>
-Depends: firmware (>9.0)
+Depends: com.junesiphone.lockpluspro
 Architecture: iphoneos-arm
 Filename: ./debs/com.howboutno.lppenergy_1.0_iphoneos-arm.deb
 Size: 409812
@@ -44,7 +44,7 @@ Package: com.howboutno.zepelectra
 Version: 1.0
 Section: Addons (Zeppelin)
 Maintainer: How Bout No <howboutno7581@gmail.com>
-Depends: firmware (>5.0)
+Depends: com.alexzielenski.zeppelin
 Architecture: iphoneos-arm
 Filename: ./debs/com.howboutno.zepelectra_1.0_iphoneos-arm.deb
 Size: 1882
