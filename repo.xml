@@ -6,6 +6,11 @@
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
+			<name>Check out my GitHub</name>
+			<url>https://github.com/How-Bout-No</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+		<link>
 			<name>I want this depiction template</name>
 			<url>https://github.com/supermamon/Reposi3/</url>
 			<iconclass>fa fa-thumbs-up</iconclass>
