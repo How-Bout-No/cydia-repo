@@ -22,7 +22,6 @@ body {
 }
 
 #slide1 {
-	visibility: hidden;
     position: relative;
     bottom: -1000px;
     width: 500px;
@@ -35,7 +34,6 @@ body {
 }
 
 #slide2 {
-	visibility: hidden;
     position: relative;
     bottom: -1000px;
     width: 500px;
@@ -48,7 +46,6 @@ body {
 }
 
 #slide3 {
-	visibility: hidden;
     position: relative;
     bottom: -1000px;
     width: 500px;
@@ -61,7 +58,6 @@ body {
 }
 
 #slide4 {
-	visibility: hidden;
     position: relative;
     bottom: -1000px;
     width: 500px;
