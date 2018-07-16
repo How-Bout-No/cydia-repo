@@ -1,0 +1,25 @@
+<package>
+	<id>com.howboutno.reselectra</id>
+	<name>Electra Respring Logo</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>SpringChanger</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Electra Bolt icon for Springchanger</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
