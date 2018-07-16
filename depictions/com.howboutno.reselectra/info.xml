@@ -13,6 +13,7 @@
 	</compatibility>
 	<dependencies>
 		<package>SpringChanger</package>
+		<package>Anemone</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Electra Bolt icon for Springchanger</description>
