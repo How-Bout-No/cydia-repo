@@ -39,3 +39,17 @@ Description: Electra Bolt icon for Springchanger
 Name: Electra Respring Logo
 Author: How Bout No <howboutno7581@gmail.com>
 Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.reselectra
+
+Package: com.howboutno.muze3dark
+Version: 0.9
+Section: Themes (Addons)
+Maintainer: How Bout No <howboutno7581@gmail.com>
+Depends: com.macciti.muze3
+Architecture: iphoneos-arm
+Filename: ./debs/com.howboutno.muze3dark_0.9_iphoneos-arm.deb
+Size: 978
+MD5sum: 868205a1475c776da14762e6100f57a8
+Description: Dark Icons for Muze 3
+Name: Muze 3 All Dark Mode
+Author: How Bout No <howboutno7581@gmail.com>
+Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.muze3dark

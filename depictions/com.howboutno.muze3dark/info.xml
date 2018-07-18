@@ -1,0 +1,27 @@
+<package>
+	<id>com.howboutno.muze3dark</id>
+	<name>Muze 3 All Dark Mode</name>
+	<version>0.9</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>Muze 3</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Dark Icons for Muze 3</description>
+		<description>Currently only SpringBoard icons are themed</description>
+		<description>Feedback is encouraged! I want to know if there is anything I should change before moving on to other sections.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
