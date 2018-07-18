@@ -5,8 +5,8 @@ Maintainer: How Bout No <howboutno7581@gmail.com>
 Depends: com.junesiphone.lockpluspro
 Architecture: iphoneos-arm
 Filename: ./debs/com.howboutno.lppenergy_1.1_iphoneos-arm.deb
-Size: 71694
-MD5sum: 7ba9b0667f76123d8b9a78de5fb4a52d
+Size: 71704
+MD5sum: ae8d799557bed69710903ba93b0fcec5
 Description: Energy animation for LockPlus Pro
 Name: Energy Charging Animation (LPP)
 Author: How Bout No <howboutno7581@gmail.com>
@@ -19,8 +19,8 @@ Maintainer: How Bout No <howboutno7581@gmail.com>
 Depends: com.alexzielenski.zeppelin
 Architecture: iphoneos-arm
 Filename: ./debs/com.howboutno.zepelectra_1.0_iphoneos-arm.deb
-Size: 2778
-MD5sum: 2bb046e4a7ef831b65256c544f7d893d
+Size: 2790
+MD5sum: 808cb661e986067040b8ae32d67e1f73
 Description: Electra icons for Zeppelin
 Name: Zeppelin Electra
 Author: How Bout No <howboutno7581@gmail.com>
@@ -33,8 +33,8 @@ Maintainer: How Bout No <howboutno7581@gmail.com>
 Depends: com.wizages.springchanger, com.anemonetheming.anemone
 Architecture: iphoneos-arm
 Filename: ./debs/com.howboutno.reselectra_1.0_iphoneos-arm.deb
-Size: 18528
-MD5sum: e72e7c939f13ed24c98b152be92b77c9
+Size: 18538
+MD5sum: 33645bec9fab79048dd94dbdc5fb542d
 Description: Electra Bolt icon for Springchanger
 Name: Electra Respring Logo
 Author: How Bout No <howboutno7581@gmail.com>
@@ -47,7 +47,7 @@ Maintainer: How Bout No <howboutno7581@gmail.com>
 Depends: com.macciti.muze3
 Architecture: iphoneos-arm
 Filename: ./debs/com.howboutno.muze3dark_0.9_iphoneos-arm.deb
-Size: 978
+Size: 1001504
 MD5sum: 868205a1475c776da14762e6100f57a8
 Description: Dark Icons for Muze 3
 Name: Muze 3 All Dark Mode
