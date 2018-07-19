@@ -16,11 +16,21 @@
 	</dependencies>
 	<descriptionlist>
 		<description>Pokemon Health Bar for Alkaline</description>
-		<description>Feedback is encouraged! I want to know if there is anything I should change before moving on to other sections.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<screenshot>
+			<description>Statusbar preview</description>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>
-	<links></links>
+	<links>
+		<link>
+			<name>Original Request Post</name>
+			<url>https://www.reddit.com/r/jailbreak/comments/8znngj/request_pokémon_hp_bar_as_battery_indicator/</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
 </package>
