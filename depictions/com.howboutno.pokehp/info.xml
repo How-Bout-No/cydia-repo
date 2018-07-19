@@ -1,0 +1,26 @@
+<package>
+	<id>com.howboutno.pokehp</id>
+	<name>PokeHP</name>
+	<version>0.9</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>Alkaline</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Pokemon Health Bar for Alkaline</description>
+		<description>Feedback is encouraged! I want to know if there is anything I should change before moving on to other sections.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
