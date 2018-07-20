@@ -12,8 +12,11 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>SpringChanger</package>
-		<package>Anemone</package>
+		<package><![CDATA[
+		SpringChanger<br/> 
+		Anemone
+		]]>
+		</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Electra Bolt icon for Springchanger</description>
