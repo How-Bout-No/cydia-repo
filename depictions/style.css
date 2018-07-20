@@ -1,7 +1,3 @@
-body {
-    font-family: 'FreeMono', monospace;
-    color:#242424;
-}
 .disable-hover {
     pointer-events: none;
 }

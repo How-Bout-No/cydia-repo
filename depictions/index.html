@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/darkly/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
@@ -174,16 +175,16 @@
 			<li id="screenshotsLink" />
 		</ul>
 	</div>
-
+	
+	<div class="container" id="dependenciesContainer">
+		<h5>DEPENDENCIES</h5>
+		<ul id="dependencyList" class="list-group">
+		</ul>
+	</div>
 	<div class="container">
 		<h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
 		<ul id="changesList" class="list-group">
 			<li id="changelogLink" />
-		</ul>
-	</div>
-	<div class="container" id="dependenciesContainer">
-		<h5>DEPENDENCIES</h5>
-		<ul id="dependencyList" class="list-group">
 		</ul>
 	</div>
 
@@ -197,7 +198,7 @@
 <div id="packageError" style="display:none">
 	<div class="container">
 	  <div class="alert alert-danger">
-		<strong>Oh snap!</strong> The package you are tying to view is not hosted on this repository.
+		<strong>This is awkward...</strong><br> The package you are tying to view is not hosted on this repository.
 	  </div>
 	</div>
 </div>
