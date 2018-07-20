@@ -4,71 +4,92 @@
   <title>How Bout No's Repo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/darkly/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<style>
+  
+.card {
+
+transition: padding 0.5s;
+-moz-transition: padding 0.5s; /* Firefox 4 */
+-webkit-transition: padding 0.5s; /* Safari and Chrome */
+-o-transition: padding 0.5s; /* Opera */
+-ms-transition:padding 0.5s; /* IE9 (maybe) */ 	
+
+}
+
+.card:hover {
+	padding:10px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+</style>
+  
 </head>
 <body>
 
-<div id="grad"></div>
-<div id="grad1"></div>
-
 <div  style="text-align:center">
-	<div class="container" id="slide1">
+	<div class="container">
 		<h1><img src="CydiaIcon.png"> How Bout No</h1>
 	</div>
 
-	<div class="container" id="slide2">
-		<div class="well">
+	<div class="container">
+		<div class="well grow">
 			<!--
 			<p><span class="text-primary"><b>Reposi3</span></b> is a Cydia repository template.</p>
 			-->
-			<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://how-bout-no.github.io/">Add to Cydia</a>
+			<a class="btn btn-success progress-bar-striped progress-bar-animated" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://how-bout-no.github.io/" style="position:sticky;">Add to Cydia</a>
 		</div>
 	</div>
+	
+	<br><br><br><br><br>
 
-	<div class="container" id="slide3">
+	<div class="container">
 	  <h3 id="wells" class="page-header">Hosted Packages</h3>
 	</div>
 
-	<div class="container" id="slide4">
-		<div class="panel panel-default">
-		  <div class="panel-heading">PokeHP</div>
-		  <div class="panel-body">
-			Pokemon Health Bar for Alkaline<br /><br />
-			<a class="btn btn-xs btn-default" href="depictions/?p=com.howboutno.pokehp">More info</a>
-		  </div>
-		</div>
-	
-		<div class="panel panel-default">
-		  <div class="panel-heading">Muze 3 All Dark Mode</div>
-		  <div class="panel-body">
-			Unofficial Muze 3 Addon changing most icons to dark counterparts<br /><br />
-			<a class="btn btn-xs btn-default" href="depictions/?p=com.howboutno.muze3dark">More info</a>
-		  </div>
-		</div>
-	
-		<div class="panel panel-default">
-		  <div class="panel-heading">Energy Charging Animation (LPP)</div>
-		  <div class="panel-body">
-			Charging animation for Lock Plus Pro.<br /><br />
-			<a class="btn btn-xs btn-default" href="depictions/?p=com.howboutno.lppenergy">More info</a>
-		  </div>
+	<div class="bs-component">
+		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
+			<div class="card-header">PokeHP <span class="badge badge-primary">0.9</span></div>
+			<div class="card-body">
+				<h5 class="card-title">Pokemon Health Bar for Alkaline</h5>
+				<a href="depictions/?p=com.howboutno.pokehp" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
+			</div>
 		</div>
 		
-		<div class="panel panel-default">
-		  <div class="panel-heading">Zeppelin Electra Bolt</div>
-		  <div class="panel-body">
-			Electra Bolt icon for Zeppelin<br /><br />
-			<a class="btn btn-xs btn-default" href="depictions/?p=com.howboutno.zepelectra">More info</a>
-		  </div>
+		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
+			<div class="card-header">Muze 3 All Dark Mode <span class="badge badge-primary">0.9</span></div>
+			<div class="card-body">
+				<h5 class="card-title">Unofficial Muze 3 Addon changing most icons to dark counterparts</h5>
+				<a href="depictions/?p=com.howboutno.muze3dark" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
+			</div>
 		</div>
 		
-		<div class="panel panel-default">
-		  <div class="panel-heading">Electra Respring Logo</div>
-		  <div class="panel-body">
-			Electra Bolt icon for Springchanger<br /><br />
-			<a class="btn btn-xs btn-default" href="depictions/?p=com.howboutno.reselectra">More info</a>
-		  </div>
+		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
+			<div class="card-header">Energy Charging Animation (LPP) <span class="badge badge-primary">1.1</span></div>
+			<div class="card-body">
+				<h5 class="card-title">Charging animation for Lock Plus Pro</h5>
+				<a href="depictions/?p=com.howboutno.lppenergy" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
+			</div>
+		</div>
+		
+		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
+			<div class="card-header">Zeppelin Electra Bolt <span class="badge badge-primary">1.0</span></div>
+			<div class="card-body">
+				<h5 class="card-title">Electra Bolt icon for Zeppelin</h5>
+				<a href="depictions/?p=com.howboutno.zepelectra" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
+			</div>
+		</div>
+		
+		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
+			<div class="card-header">Electra Respring Logo <span class="badge badge-primary">1.0</span></div>
+			<div class="card-body">
+				<h5 class="card-title">Electra Bolt icon for Springchanger</h5>
+				<a href="depictions/?p=com.howboutno.reselectra" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
+			</div>
 		</div>
 	</div>
 </div>
