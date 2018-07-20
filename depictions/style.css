@@ -1,3 +1,7 @@
+ul {
+	color: #fffff !important;
+}
+
 .disable-hover {
     pointer-events: none;
 }
