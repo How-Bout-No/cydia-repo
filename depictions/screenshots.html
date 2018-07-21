@@ -29,7 +29,7 @@
 				,"render" : function(element,source){
 				console.log($(source).size());
 					if ($(source).size()==0) {
-						$(element).append( $("<div class='alert alert-danger'>The aren't any screenshots for this package</div>") ); 
+						$(element).append( $("<div class='alert alert-danger'>There aren't any screenshots for this package...</div>") ); 
 						return;
 					}
 					$.each(source, function(index,data) {
@@ -75,6 +75,7 @@
 		</ul>
 	</div>
 </div>
+<br>
 <div id="packageError" style="display:none">
 	<div class="container">
 	  <div class="alert alert-danger style="text-align:center;"">
