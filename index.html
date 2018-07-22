@@ -57,109 +57,44 @@ transition: all .3s ease-in-out;
 	<script type="text/javascript">
 	
 		function addRow(xml) {
-			alert($(xml).find("Version").text());
+			var packname = $(xml).find("Name").text();
+			var packver = $(xml).find("Version").text();
+			var packdesc = $(xml).find("Description").text();
+			var packdepic = $(xml).find("Depiction").text();
+			
 			var div = document.createElement('div');
 
 			div.className = 'card border-primary mb-3';
 			div.style = 'margin: 0 auto;max-width: 50rem;'
 
 			div.innerHTML =
-				'<input type="text" name="name" value="" />\
-				<input type="text" name="value" value="" />\
-				<label> <input type="checkbox" name="check" value="1" /> Checked? </label>\
-				<input type="button" value="-" onclick="removeRow(this)">';
+				'<div class="card-header">'+packname+' <span class="badge badge-primary">'+packver+'</span></div>\
+				<div class="card-body">\
+				<h5 class="card-title">'+packdesc+'</h5>\
+				<a href="'+packdepic+'" class="btn btn-info progress-bar-striped progress-bar-animated grow packdepic">More info</a>\
+				</div>';
 
-			document.getElementById('bs-component').appendChild(div);
+			document.getElementsByClassName('bs-component')[0].appendChild(div);
 		}
 		
 		$( document ).ready(function() {
 			$.ajax({
-			type    : "GET",
-			dataType: "xml",
-			url     : ("/Packages.xml"),
-			success: function(xml) {
-				$(xml).find('PackageList').each(function(){
-					addRow($(this)).find("Version").each(function(){
-						var name = $(this).text();
-						alert(name);
+				type    : "GET",
+				dataType: "xml",
+				url     : ("/Packages.xml"),
+				success: function(xml) {
+					$(xml).find('item').each(function(){
+						addRow($(this))
 					});
-				});
-			}
+				}
 			}); //ajax
 		}); // ready
-		
-		function addRow(xml) {
-			alert($(xml).find("Version").text());
-			var div = document.createElement('div');
-
-			div.className = 'card border-primary mb-3';
-			div.style = 'margin: 0 auto;max-width: 50rem;'
-
-			div.innerHTML =
-				'<input type="text" name="name" value="" />\
-				<input type="text" name="value" value="" />\
-				<label> <input type="checkbox" name="check" value="1" /> Checked? </label>\
-				<input type="button" value="-" onclick="removeRow(this)">';
-
-			document.getElementsByClassName('bs-component')[0].appendChild(div);
-		}
-        $.ajax({
-        type    : "GET",
-        dataType: "xml",
-        url     : ("/Packages.xml"),
-        success: function(xml) {
-            $(xml).find('PackageList').each(function(){
-				$(this).find("com").each(function(){
-                        alert($(this).text())
-                });
-            });
-        }
-        }); //ajax
 		
 		
 	</script>
 
-	<div class="bs-component">
-		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
-			<div class="card-header">PokeHP <span class="badge badge-primary">0.9</span></div>
-			<div class="card-body">
-				<h5 class="card-title">Pokemon Health Bar for Alkaline</h5>
-				<a href="depictions/?p=com.howboutno.pokehp" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
-			</div>
-		</div>
-		
-		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
-			<div class="card-header">Muze 3 All Dark Mode <span class="badge badge-primary">0.9.1</span></div>
-			<div class="card-body">
-				<h5 class="card-title">Unofficial Muze 3 Addon changing most icons to dark counterparts</h5>
-				<a href="depictions/?p=com.howboutno.muze3dark" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
-			</div>
-		</div>
-		
-		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
-			<div class="card-header">Energy Charging Animation (LPP) <span class="badge badge-primary">1.1</span></div>
-			<div class="card-body">
-				<h5 class="card-title">Charging animation for Lock Plus Pro</h5>
-				<a href="depictions/?p=com.howboutno.lppenergy" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
-			</div>
-		</div>
-		
-		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
-			<div class="card-header">Zeppelin Electra Bolt <span class="badge badge-primary">1.0</span></div>
-			<div class="card-body">
-				<h5 class="card-title">Electra Bolt icon for Zeppelin</h5>
-				<a href="depictions/?p=com.howboutno.zepelectra" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
-			</div>
-		</div>
-		
-		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
-			<div class="card-header">Electra Respring Logo <span class="badge badge-primary">1.0</span></div>
-			<div class="card-body">
-				<h5 class="card-title">Electra Bolt icon for Springchanger</h5>
-				<a href="depictions/?p=com.howboutno.reselectra" class="btn btn-info progress-bar-striped progress-bar-animated grow">More info</a>
-			</div>
-		</div>
-	</div>
+	<div class="bs-component"></div>
+	
 </div>
 <br><br><hr><br><br>
 
