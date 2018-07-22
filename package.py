@@ -1,21 +1,7 @@
-# What are you doing trying to look through these files? ;)
-# Haha, just kidding, but if you're wondering why this is here, fear not. I'll tell you.
-# Currently, this file is going to help in an experiment that I am running. And since I'm
-# a very inefficient young lad, I'm debugging the public product instead of the internal...
-# (Cause it's easier and I'm dumb)
-# Actually, the only experiment is the xml...
-# Trying to get an auto-update for the Hosted Packages, ya feel me?
-# Now idk **** about JS, as I'm wayyyy more experienced in Python (which is why this is a py script)
-# But... I'll see how this goes.
-
-# If this works, it'll help me push projects out faster :)
-
-# Now scram!
-
 import subprocess
-from shutil import copyfile
 from xml.dom.minidom import Document
 
+# Just calling 7zip to build Packages.bz2 for us :)
 subprocess.call("7z a -tbzip2 Packages.bz2 Packages")
 
 
@@ -62,19 +48,27 @@ class DictToXML(object):
         return self.doc.toprettyxml(indent="  ")
 
 
+# Set up Packages file
 with open('Packages', 'r') as file:
    Packages = file.read()
    file.close()
 
+# Sort Packages file into separate package listings
 PackagesSorted = Packages.split('\n\n')
 PackageListFinal = []
+
+# Convert each package listing to a dictionary
 for x in PackagesSorted:
     PackageList = {}
     data = x.replace(': ', '\n').split('\n')
     for i,k in zip(data[0::2], data[1::2]):
         PackageList[i] = k.replace('https://how-bout-no.github.io/', '')
     PackageListFinal.append(PackageList)
+	
+# Necessary final dictionary
 AllPackages = {"package": PackageListFinal}
+
+# Convert final dictionary to XML file
 xml = DictToXML(AllPackages)
 with open('Packages.xml', 'w') as file:
     file.write(xml.get_string())
