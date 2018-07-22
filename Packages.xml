@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<PackageList>
-  <com.howboutno.lppenergy>
+<package>
+  <item>
     <Package>com.howboutno.lppenergy</Package>
     <Version>1.1</Version>
     <Section>Addons (LockPlus Pro)</Section>
@@ -14,8 +14,8 @@
     <Name>Energy Charging Animation (LPP)</Name>
     <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
     <Depiction>depictions/?p=com.howboutno.lppenergy</Depiction>
-  </com.howboutno.lppenergy>
-  <com.howboutno.zepelectra>
+  </item>
+  <item>
     <Package>com.howboutno.zepelectra</Package>
     <Version>1.0</Version>
     <Section>Addons (Zeppelin)</Section>
@@ -29,8 +29,8 @@
     <Name>Zeppelin Electra</Name>
     <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
     <Depiction>depictions/?p=com.howboutno.zepelectra</Depiction>
-  </com.howboutno.zepelectra>
-  <com.howboutno.reselectra>
+  </item>
+  <item>
     <Package>com.howboutno.reselectra</Package>
     <Version>1.0</Version>
     <Section>Addons (SpringChanger)</Section>
@@ -44,8 +44,8 @@
     <Name>Electra Respring Logo</Name>
     <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
     <Depiction>depictions/?p=com.howboutno.reselectra</Depiction>
-  </com.howboutno.reselectra>
-  <com.howboutno.muze3dark>
+  </item>
+  <item>
     <Package>com.howboutno.muze3dark</Package>
     <Version>0.9.1</Version>
     <Section>Themes (Addons)</Section>
@@ -59,8 +59,8 @@
     <Name>Muze 3 All Dark Mode</Name>
     <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
     <Depiction>depictions/?p=com.howboutno.muze3dark</Depiction>
-  </com.howboutno.muze3dark>
-  <com.howboutno.pokehp>
+  </item>
+  <item>
     <Package>com.howboutno.pokehp</Package>
     <Version>0.9</Version>
     <Section>Addons (Alkaline)</Section>
@@ -74,5 +74,5 @@
     <Name>PokeHP</Name>
     <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
     <Depiction>depictions/?p=com.howboutno.pokehp</Depiction>
-  </com.howboutno.pokehp>
-</PackageList>
+  </item>
+</package>

@@ -67,14 +67,14 @@ with open('Packages', 'r') as file:
    file.close()
 
 PackagesSorted = Packages.split('\n\n')
-PackageListFinal = {}
+PackageListFinal = []
 for x in PackagesSorted:
     PackageList = {}
     data = x.replace(': ', '\n').split('\n')
     for i,k in zip(data[0::2], data[1::2]):
         PackageList[i] = k.replace('https://how-bout-no.github.io/', '')
-    PackageListFinal[data[1]] = PackageList
-AllPackages = {"PackageList": PackageListFinal}
+    PackageListFinal.append(PackageList)
+AllPackages = {"package": PackageListFinal}
 xml = DictToXML(AllPackages)
 with open('Packages.xml', 'w') as file:
     file.write(xml.get_string())

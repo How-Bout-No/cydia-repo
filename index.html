@@ -53,6 +53,71 @@ transition: all .3s ease-in-out;
 	<div class="container">
 	  <h3 id="wells" class="page-header">Hosted Packages</h3>
 	</div>
+	
+	<script type="text/javascript">
+	
+		function addRow(xml) {
+			alert($(xml).find("Version").text());
+			var div = document.createElement('div');
+
+			div.className = 'card border-primary mb-3';
+			div.style = 'margin: 0 auto;max-width: 50rem;'
+
+			div.innerHTML =
+				'<input type="text" name="name" value="" />\
+				<input type="text" name="value" value="" />\
+				<label> <input type="checkbox" name="check" value="1" /> Checked? </label>\
+				<input type="button" value="-" onclick="removeRow(this)">';
+
+			document.getElementById('bs-component').appendChild(div);
+		}
+		
+		$( document ).ready(function() {
+			$.ajax({
+			type    : "GET",
+			dataType: "xml",
+			url     : ("/Packages.xml"),
+			success: function(xml) {
+				$(xml).find('PackageList').each(function(){
+					addRow($(this)).find("Version").each(function(){
+						var name = $(this).text();
+						alert(name);
+					});
+				});
+			}
+			}); //ajax
+		}); // ready
+		
+		function addRow(xml) {
+			alert($(xml).find("Version").text());
+			var div = document.createElement('div');
+
+			div.className = 'card border-primary mb-3';
+			div.style = 'margin: 0 auto;max-width: 50rem;'
+
+			div.innerHTML =
+				'<input type="text" name="name" value="" />\
+				<input type="text" name="value" value="" />\
+				<label> <input type="checkbox" name="check" value="1" /> Checked? </label>\
+				<input type="button" value="-" onclick="removeRow(this)">';
+
+			document.getElementsByClassName('bs-component')[0].appendChild(div);
+		}
+        $.ajax({
+        type    : "GET",
+        dataType: "xml",
+        url     : ("/Packages.xml"),
+        success: function(xml) {
+            $(xml).find('PackageList').each(function(){
+				$(this).find("com").each(function(){
+                        alert($(this).text())
+                });
+            });
+        }
+        }); //ajax
+		
+		
+	</script>
 
 	<div class="bs-component">
 		<div class="card border-primary mb-3" style="margin: 0 auto;max-width: 50rem;">
