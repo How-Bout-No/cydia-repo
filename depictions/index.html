@@ -12,7 +12,6 @@
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
   <script type="text/javascript" src="js/data-loader-engine.js"></script>
   <script type="text/javascript" src="js/ios_version_check.js"></script>
-  <script type="text/javascript" src="js/touch.js"></script>
   <style>
 	@media (max-width: 767px) {
 		body{margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
@@ -238,7 +237,7 @@
                             i.attr("class",$(data).find('iconclass').text());
                             console.log(i);
                             $(a).append(i);
-                        } 
+                        }
                         $(a).append($(data).find('name').text());
                         $(element).append(a);
                     }); //each
