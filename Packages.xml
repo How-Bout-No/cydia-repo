@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<PackageList>
+  <com.howboutno.lppenergy>
+    <Package>com.howboutno.lppenergy</Package>
+    <Version>1.1</Version>
+    <Section>Addons (LockPlus Pro)</Section>
+    <Maintainer>How Bout No &lt;howboutno7581@gmail.com&gt;</Maintainer>
+    <Depends>com.junesiphone.lockpluspro</Depends>
+    <Architecture>iphoneos-arm</Architecture>
+    <Filename>./debs/com.howboutno.lppenergy_1.1_iphoneos-arm.deb</Filename>
+    <Size>71704</Size>
+    <MD5sum>ae8d799557bed69710903ba93b0fcec5</MD5sum>
+    <Description>Energy animation for LockPlus Pro</Description>
+    <Name>Energy Charging Animation (LPP)</Name>
+    <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
+    <Depiction>depictions/?p=com.howboutno.lppenergy</Depiction>
+  </com.howboutno.lppenergy>
+  <com.howboutno.zepelectra>
+    <Package>com.howboutno.zepelectra</Package>
+    <Version>1.0</Version>
+    <Section>Addons (Zeppelin)</Section>
+    <Maintainer>How Bout No &lt;howboutno7581@gmail.com&gt;</Maintainer>
+    <Depends>com.alexzielenski.zeppelin</Depends>
+    <Architecture>iphoneos-arm</Architecture>
+    <Filename>./debs/com.howboutno.zepelectra_1.0_iphoneos-arm.deb</Filename>
+    <Size>2790</Size>
+    <MD5sum>808cb661e986067040b8ae32d67e1f73</MD5sum>
+    <Description>Electra icons for Zeppelin</Description>
+    <Name>Zeppelin Electra</Name>
+    <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
+    <Depiction>depictions/?p=com.howboutno.zepelectra</Depiction>
+  </com.howboutno.zepelectra>
+  <com.howboutno.reselectra>
+    <Package>com.howboutno.reselectra</Package>
+    <Version>1.0</Version>
+    <Section>Addons (SpringChanger)</Section>
+    <Maintainer>How Bout No &lt;howboutno7581@gmail.com&gt;</Maintainer>
+    <Depends>com.wizages.springchanger, com.anemonetheming.anemone</Depends>
+    <Architecture>iphoneos-arm</Architecture>
+    <Filename>./debs/com.howboutno.reselectra_1.0_iphoneos-arm.deb</Filename>
+    <Size>18538</Size>
+    <MD5sum>33645bec9fab79048dd94dbdc5fb542d</MD5sum>
+    <Description>Electra Bolt icon for Springchanger</Description>
+    <Name>Electra Respring Logo</Name>
+    <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
+    <Depiction>depictions/?p=com.howboutno.reselectra</Depiction>
+  </com.howboutno.reselectra>
+  <com.howboutno.muze3dark>
+    <Package>com.howboutno.muze3dark</Package>
+    <Version>0.9.1</Version>
+    <Section>Themes (Addons)</Section>
+    <Maintainer>How Bout No &lt;howboutno7581@gmail.com&gt;</Maintainer>
+    <Depends>com.macciti.muze3</Depends>
+    <Architecture>iphoneos-arm</Architecture>
+    <Filename>./debs/com.howboutno.muze3dark_0.9.1_iphoneos-arm.deb</Filename>
+    <Size>1001244</Size>
+    <MD5sum>339ef597b3e6cf91e6dd08c1ca2679df</MD5sum>
+    <Description>Dark Icons for Muze 3</Description>
+    <Name>Muze 3 All Dark Mode</Name>
+    <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
+    <Depiction>depictions/?p=com.howboutno.muze3dark</Depiction>
+  </com.howboutno.muze3dark>
+  <com.howboutno.pokehp>
+    <Package>com.howboutno.pokehp</Package>
+    <Version>0.9</Version>
+    <Section>Addons (Alkaline)</Section>
+    <Maintainer>How Bout No &lt;howboutno7581@gmail.com&gt;</Maintainer>
+    <Depends>com.fortysixandtwo.alkaline</Depends>
+    <Architecture>iphoneos-arm</Architecture>
+    <Filename>./debs/com.howboutno.pokehp_0.9_iphoneos-arm.deb</Filename>
+    <Size>143200</Size>
+    <MD5sum>45e3a0d9a9794f2ac457558947c6c242</MD5sum>
+    <Description>Pokemon Health Bar for Alkaline</Description>
+    <Name>PokeHP</Name>
+    <Author>How Bout No &lt;howboutno7581@gmail.com&gt;</Author>
+    <Depiction>depictions/?p=com.howboutno.pokehp</Depiction>
+  </com.howboutno.pokehp>
+</PackageList>

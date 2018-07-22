@@ -48,7 +48,7 @@ transition: all .3s ease-in-out;
 		</div>
 	</div>
 	
-	<hr><br><br><br><br>
+	<hr><br><br><br>
 
 	<div class="container">
 	  <h3 id="wells" class="page-header">Hosted Packages</h3>
@@ -96,6 +96,57 @@ transition: all .3s ease-in-out;
 		</div>
 	</div>
 </div>
+<br><br><hr><br><br>
+
+<!--     Ooh what's this? ... Just experimentation, that's all ;)
+
+<div class="container" id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'https://how-bout-no.github.io/';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'homepage'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://how-bout-no.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+-->
+
+<div id="quote"></div>
+  <script>
+    (function() {
+      var quotes = [
+        {
+          text: "Hey there..."
+        },
+		{
+          text: "What are you doing down here?"
+        },
+		{
+          text: "How's your day been?"
+        },
+		{
+          text: "Be sure to check out all the other stuff I do!"
+        },
+		{
+          text: "No secrets to be found..."
+        }
+      ];
+      var quote = quotes[Math.floor(Math.random() * quotes.length)];
+      document.getElementById("quote").innerHTML =
+        '<center>' + quote.text + ' &#128521;' + '</center>';
+    })();
+  </script>
 
 </body>
 </html>
