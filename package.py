@@ -73,3 +73,19 @@ xml = DictToXML(AllPackages)
 with open('Packages.xml', 'w') as file:
     file.write(xml.get_string())
     file.close()
+
+# Git
+try:
+    print("Adding changes...")
+    subprocess.call("git add .")
+    commitmsg = input("Optional Commit Message: ") # Leave blank for '.' message
+    print("Committing...")
+    if not commitmsg:
+        subprocess.call("git commit -m '.'")
+    else:
+        subprocess.call("git commit -m "+commitmsg)
+    print("Pushing...")
+    subprocess.call("git push -u origin master")
+    print("Success!")
+except Exception as e:
+    print("Error!\n"+e)
