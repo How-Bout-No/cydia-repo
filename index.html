@@ -58,12 +58,12 @@ transition: all .3s ease-in-out;
 	
 		// Auto package-lister script
 	
-		function addRow(xml) {
-			var packname = $(xml).find("Name").text();
-			var packver = $(xml).find("Version").text();
-			var packdesc = $(xml).find("Description").text();
-			var packdepic = $(xml).find("Depiction").text();
-			
+		function addRow(dict) {
+			var packname = dict["Name"];
+			var packver = dict["Version"];
+			var packdesc = dict["Description"];
+			var packdepic = dict["Depiction"];
+
 			var div = document.createElement('div');
 
 			div.className = 'card border-primary mb-3';
@@ -78,16 +78,27 @@ transition: all .3s ease-in-out;
 
 			document.getElementsByClassName('bs-component')[0].appendChild(div);
 		}
-		
+
 		$( document ).ready(function() {
 			$.ajax({
 				type    : "GET",
-				dataType: "xml",
-				url     : ("/Packages.xml"),
-				success: function(xml) {
-					$(xml).find('item').each(function(){
-						addRow($(this))
-					});
+				dataType: "text",
+				url     : ("/Packages"),
+				success: function(data) {
+					var i, j, text, sortpackage;
+					var newdata = data.split('\n\n');
+					var allpackages = [];
+					for (i = 0; i < newdata.length; i++) {
+						text = newdata[i].replace(/: /g, '\n').split('\n');
+						sortpackage = {};
+						for (j= 0; j < text.length; j+=2) {
+							sortpackage[text[j]] = text[j+1];
+						}
+						allpackages.push(sortpackage);
+					}
+					for (i = 0; i < allpackages.length; i++) {
+						addRow(allpackages[i]);
+					}
 				}
 			}); //ajax
 		}); // ready
