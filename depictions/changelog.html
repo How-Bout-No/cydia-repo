@@ -43,6 +43,7 @@
             url     : (bundleid+"/changelog.xml"),
             success : function(xml){
             	data_loader_engine(contentBlocks,xml)
+				document.getElementById('packageNameBC').setAttribute('href', document.location.href.replace('changelog.html', ''));
             },
 			cache   : false,
             error: function() {
@@ -58,11 +59,13 @@
 <br />
 
 <div id="packageInformation">
-	<ol class="breadcrumb">
-	  <li class="breadcrumb-item"><a href="../">Home</a></li>
-	  <li class="breadcrumb-item"><a href="../" id="packageNameBC"></a></li>
-	  <li class="breadcrumb-item active">Changelog</li>
-	</ol>
+	<div class="container">
+		<ol class="breadcrumb">
+		  <li class="breadcrumb-item"><a href="../">Home</a></li>
+		  <li class="breadcrumb-item"><a href="#" id="packageNameBC"></a></li>
+		  <li class="breadcrumb-item active">Changelog</li>
+		</ol>
+	</div>
 	<div class="container" id="changeLogList">
 	</div>
 </div>

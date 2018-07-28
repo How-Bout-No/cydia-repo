@@ -57,6 +57,7 @@
             success : function(xml){
 				document.title = $(xml).find("package>name").text();
             	data_loader_engine(contentBlocks,xml)
+				document.getElementById('packageNameBC').setAttribute('href', document.location.href.replace('screenshots.html', ''));
             },
 			cache   : false,
             error: function() {
@@ -72,11 +73,13 @@
 <br />
 
 <div id="packageInformation">
-	<ol class="breadcrumb">
-	  <li class="breadcrumb-item"><a href="../">Home</a></li>
-	  <li class="breadcrumb-item"><a href="../" id="packageNameBC"></a></li>
-	  <li class="breadcrumb-item active">Screenshots</li>
-	</ol>
+	<div class="container">
+		<ol class="breadcrumb">
+		  <li class="breadcrumb-item"><a href="../">Home</a></li>
+		  <li class="breadcrumb-item"><a href="#" id="packageNameBC"></a></li>
+		  <li class="breadcrumb-item active">Screenshots</li>
+		</ol>
+	</div>
 	<div class="container">
 		<h5>SCREENSHOTS</h5>
 		<ul id="screenshotsList" class="list-group">
