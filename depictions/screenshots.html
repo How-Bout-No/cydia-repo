@@ -23,7 +23,9 @@
 	bundleid = $.QueryString['p'];	
 
     var contentBlocks = 	{
-        "#screenshotsList"	: 
+		"#packageNameBC" :
+			{"type":"text","source":"package>name"}
+        ,"#screenshotsList"	: 
 			{"type":"custom"  
 				,"source" :"package>screenshots>screenshot"
 				,"render" : function(element,source){
@@ -70,6 +72,11 @@
 <br />
 
 <div id="packageInformation">
+	<ol class="breadcrumb">
+	  <li class="breadcrumb-item"><a href="../">Home</a></li>
+	  <li class="breadcrumb-item"><a href="../" id="packageNameBC"></a></li>
+	  <li class="breadcrumb-item active">Screenshots</li>
+	</ol>
 	<div class="container">
 		<h5>SCREENSHOTS</h5>
 		<ul id="screenshotsList" class="list-group">

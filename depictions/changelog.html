@@ -23,7 +23,9 @@
 	bundleid = $.QueryString['p'];	
 
     var contentBlocks = 	{
-        "#changeLogList" : 
+		"#packageNameBC" :
+			{"type":"text","source":"package>name"}
+        ,"#changeLogList" : 
 			{"type":"articles"  
 				,"source"			:"changelog"
 				,"titleSource" 		:"version"
@@ -56,6 +58,11 @@
 <br />
 
 <div id="packageInformation">
+	<ol class="breadcrumb">
+	  <li class="breadcrumb-item"><a href="../">Home</a></li>
+	  <li class="breadcrumb-item"><a href="../" id="packageNameBC"></a></li>
+	  <li class="breadcrumb-item active">Changelog</li>
+	</ol>
 	<div class="container" id="changeLogList">
 	</div>
 </div>
