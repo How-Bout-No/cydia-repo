@@ -1,3 +1,16 @@
+Package: com.howboutno.unloadvsd
+Version: 1.0
+Section: Tweaks
+Maintainer: How Bout No <howboutno7581@gmail.com>
+Architecture: iphoneos-arm
+Filename: ./debs/com.howboutno.unloadvsd_1.0_iphoneos-arm.deb
+Size: 860
+MD5sum: 74fc1b4f71b635a7f921794144a7af43
+Description: Unload videosubscriptionsd on jailbreak
+Name: Unload VSD
+Author: How Bout No <howboutno7581@gmail.com>
+Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.unloadvsd
+
 Package: com.howboutno.pokehp
 Version: 0.9
 Section: Addons (Alkaline)

@@ -1,0 +1,23 @@
+<package>
+	<id>com.howboutno.unloadvsd</id>
+	<name>Unload VSD</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.3</miniOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Unload videosubscriptionsd on jailbreak</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
