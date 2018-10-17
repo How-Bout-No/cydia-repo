@@ -25,6 +25,15 @@
     var contentBlocks = 	{
 		"#packageNameBC" :
 			{"type":"text","source":"package>name"}
+		,"#packageHeader" :
+			{"type":"custom"
+				,"source":"package>name"
+				,"render":function(element,source){
+					if (navigator.userAgent.search(/Cydia/) == -1) {
+						$(element).show();
+					}
+				}
+			}
         ,"#screenshotsList"	: 
 			{"type":"custom"  
 				,"source" :"package>screenshots>screenshot"
@@ -73,7 +82,7 @@
 <br />
 
 <div id="packageInformation">
-	<div class="container">
+	<div id="packageHeader" class="container" style="display:none">
 		<ol class="breadcrumb">
 		  <li class="breadcrumb-item"><a href="../">Home</a></li>
 		  <li class="breadcrumb-item"><a href="#" id="packageNameBC"></a></li>
