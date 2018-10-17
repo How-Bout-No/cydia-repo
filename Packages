@@ -12,14 +12,14 @@ Author: How Bout No <howboutno7581@gmail.com>
 Depiction: https://how-bout-no.github.io/depictions/?p=com.howboutno.unloadvsd
 
 Package: com.howboutno.pokehp
-Version: 0.9
+Version: 1.0
 Section: Addons (Alkaline)
 Maintainer: How Bout No <howboutno7581@gmail.com>
 Depends: com.fortysixandtwo.alkaline
 Architecture: iphoneos-arm
-Filename: ./debs/com.howboutno.pokehp_0.9_iphoneos-arm.deb
-Size: 143200
-MD5sum: 45e3a0d9a9794f2ac457558947c6c242
+Filename: ./debs/com.howboutno.pokehp_1.0_iphoneos-arm.deb
+Size: 328458
+MD5sum: 668bd0dad6c80f82e1c96fda7a404885
 Description: Pokemon Health Bar for Alkaline
 Name: PokeHP
 Author: How Bout No <howboutno7581@gmail.com>
