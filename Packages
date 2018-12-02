@@ -1,11 +1,11 @@
 Package: com.howboutno.unloadvsd
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: How Bout No <howboutno7581@gmail.com>
 Architecture: iphoneos-arm
-Filename: ./debs/com.howboutno.unloadvsd_1.0.1_iphoneos-arm.deb
-Size: 824
-MD5sum: 32c113eaabb3c74a2e115124378c1214
+Filename: ./debs/com.howboutno.unloadvsd_1.0.2_iphoneos-arm.deb
+Size: 862
+MD5sum: d7f1288ce2525fc225d95cb4ab3cc20c
 Description: Unload videosubscriptionsd on jailbreak
 Name: Unload VSD
 Author: How Bout No <howboutno7581@gmail.com>
